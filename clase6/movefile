@@ -1,0 +1,2 @@
+#i/bin/bash
+mv ./Temp/betty ./Temp/my_first_directory
