@@ -1,18 +1,12 @@
 
 function Create_card(value){
-
     const container= document.getElementById('main')
     container.setAttribute("class", "container")
-
 // Creacion de FRagmento
     const fragmento= document.createDocumentFragment()
-
 // Container
-    
 // Ciclo for Creacion cards.
-
     for (let i =0; i<value ; i++){
-
         const div_card = document.createElement("div");
         div_card.setAttribute("class","card")
         container.appendChild(div_card)

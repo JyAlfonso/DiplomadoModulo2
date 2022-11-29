@@ -32,7 +32,6 @@ const cards = [{
 
 
 function CreateCard({title, content, buton}){
-    
 
     const cards = document.getElementById('main')
 
@@ -59,21 +58,18 @@ function CreateCard({title, content, buton}){
     div_body.appendChild(titulo)
     div_body.appendChild(contenido_card)
     div_body.appendChild(boton)
-    
 
     titulo.textContent = title
     contenido_card.textContent = content
     boton.textContent = buton
-    
 }
 
 function readJson(){
 
-// Creacion de FRagmento
+// Creacion de Fragmento
     const fragmento= document.createDocumentFragment()
 
     const container= document.getElementById('main')
-    container.setAttribute("class", "container")
     
     
     cards.forEach(element => {

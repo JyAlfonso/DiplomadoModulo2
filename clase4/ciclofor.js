@@ -1,4 +1,4 @@
-fun(2,'x')
+fun(4,'x')
 
 function fun(arg1, arg2='X'){
     
